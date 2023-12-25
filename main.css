@@ -42,6 +42,25 @@
     text-decoration: underline;
     color: black;
 }
+.labs ul {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    list-style: none;
+}
+
+.labs:hover ul {
+    position: relative;
+    height: 110px;
+    border: 1px solid black;
+}
+
+.labs li {
+    padding-left: 20px;
+}
+.labs li:hover{
+    background-color: lightyellow;
+}
 body{
     background-color: #BAE4FA;
 }
