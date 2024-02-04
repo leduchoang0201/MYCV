@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+    font-family: Calibri;
 }
 .top{
     width: 100%;
@@ -32,7 +32,7 @@
     display: flex;
 }
 .menu li{
-    padding-right: 100px;
+    padding-right: 50px;
 }
 .menu li a{
     text-decoration: none;
@@ -167,4 +167,18 @@ body{
     color: white;
     font-size: 20px;
     font-family: Calibri;
+}
+
+.result h2{
+    font-size: 30px;
+    color: darkblue;
+}
+.result h1{
+    font-size: 20px;
+    margin: 10px 0;
+    color: royalblue;
+}
+.result{
+    display: flex;
+    justify-content: space-evenly;
 }
